@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import logoImg from "./../../../assets/images/logo.png";
@@ -6,7 +5,6 @@ import homeLesson from "./../../../assets/images/Home/homeLesson.png";
 import teacherLesson from "./../../../assets/images/Home/teacherLesson.png";
 import eductionLesson from "./../../../assets/images/Home/eductionLesson.png";
 import "./HomeSlideSecondStyles.css";
-import Typed from "react-typed";
 const HomeSlideSecond = () => {
   return (
     <div>

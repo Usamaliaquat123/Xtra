@@ -1,8 +1,6 @@
-import PropTypes from "prop-types";
 import React, { useState } from "react";
 import bachi from "./../../../assets/images/Home/ChildrenTab/bachi.png";
 import "./ChildrenSlideOneStyles.css";
-import Typed from "react-typed";
 const ChildrenSlideOne = () => {
   return (
     <div className="containerSLideOne">

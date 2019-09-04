@@ -1,9 +1,7 @@
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import bachi from "./../../../images/Home/TeachersTab/teacher.png";
+import bachi from "./../../../assets/images/Home/TeachersTab/teacher.png";
 import "./TeachersSlideOneStyle.css";
-import Typed from "react-typed";
 const TeachersSlideOne = () => {
   return (
     <div className="containerSLideOne">

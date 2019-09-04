@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./HomeSlideStyles.css";
-import Typed from "react-typed";
 import facebook from "./../../../assets/images/Home/Icons/facebook.png";
 import twitter from "./../../../assets/images/Home/Icons/twitter.png";
 import backgroundImage from "./../../../assets/images/Home/HomeSlide1.jpg";

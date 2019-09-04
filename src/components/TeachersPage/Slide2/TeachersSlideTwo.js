@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React, { useState } from "react";
 import backgroundImage from "./../../../assets/images/Home/TeachersTab/teachers_background.png";
 import "./TeachersSlideTwoStyle.css";
-import Typed from "react-typed";
 const TeachersSlideTwo = () => {
   return (
     <div

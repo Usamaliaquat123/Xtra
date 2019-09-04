@@ -1,8 +1,6 @@
-import PropTypes from "prop-types";
 import React, { useState } from "react";
 import backgroundImage from "./../../../assets/images/Home/ChildrenTab/backgroud_of_bachi.png";
-import "./ChildrenSlideTwoStyles.module.css";
-import Typed from "react-typed";
+import "./ChildrenSlideTwoStyles.css";
 const ChildrenSlideTwo = () => {
   return (
     <div

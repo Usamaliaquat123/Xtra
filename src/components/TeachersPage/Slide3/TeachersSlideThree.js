@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./TeachersSlideThreeStyles.css";
-import Typed from "react-typed";
 const TeachersSlideThree = () => {
   return (
     <div className="containerSLideOne">

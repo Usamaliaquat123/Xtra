@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Harabara Bold";
-  src: url("./../../../fonts/Montserrat/Montserrat-Bold.ttf");
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
 @font-face {
   font-family: "Lato Light";
-  src: url("./../../../fonts/Lato2OFL/Lato-Light.ttf");
+  src: url("./../../../assets/fonts/Lato2OFL/Lato-Light.ttf");
 }
 
 .logImg {
