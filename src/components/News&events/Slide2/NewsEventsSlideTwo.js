@@ -8,7 +8,6 @@ import evntImg1 from "./../../../assets/images/NewsandEvents/03.png";
 import evntImg2 from "./../../../assets/images/NewsandEvents/04.png";
 import pstImg3 from "./../../../assets/images/NewsandEvents/05.png";
 import pstImg4 from "./../../../assets/images/NewsandEvents/06.png";
-import Typed from "react-typed";
 const NewsEventsSlideTwo = () => {
   return (
     <>

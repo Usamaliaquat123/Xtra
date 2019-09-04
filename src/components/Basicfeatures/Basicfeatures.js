@@ -11,55 +11,55 @@ import wifi from "./../../assets/images/Home/Icons/wifi.png";
 import youtube from "./../../assets/images/Home/Icons/youtube.png";
 const BasicFeatures = () => {
   return (
-    <div className="containerOverlay">
+    <div className="containerOverlayFeatures">
       <div className="container-fluid">
-        <div className="containerStyle">
+        <div className="containerStyleFeatures">
           <div className="row">
             <div className="col-sm-12 col-md-4">
-              <div className="cardCcontainer">
-                <div className="containerImage">
+              <div className="cardCcontainerFeatures">
+                <div className="containerImageFeatures">
                   <img src={bachi} width="260" height="160"></img>
                 </div>
-                <p className="cardHeading">Support a Child</p>
-                <p className="containerDdesc">
+                <p className="cardHeadingFea">Support a Child</p>
+                <p className="containerDdescFea">
                   {" "}
                   You have the opportunity to impact the lioves of children and
                   families surrounded by poverty. It is through your generosity
                   that we can create a powerfull change.{" "}
                 </p>
-                <z href="/Schools" className="containerButton">
+                <z href="/Schools" className="containerButtonFea">
                   Read more
                 </z>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
-              <div className="cardCcontainer">
-                <div className="containerImage">
+              <div className="cardCcontainerFeatures">
+                <div className="containerImageFeatures">
                   <img src={tharkiTeacher} width="260" height="160"></img>
                 </div>
-                <p className="cardHeading">Teacher Training</p>
-                <p className="containerDdesc">
+                <p className="cardHeadingFea">Teacher Training</p>
+                <p className="containerDdescFea">
                   {" "}
                   KEF made a concise decision to invest in establishing and
                   developing our own College of Teacvher Education to promote
                   advanced cognitive performance
                 </p>
-                <z href="/Teachers" className="containerButton">
+                <z href="/Teachers" className="containerButtonFea">
                   Read more
                 </z>
               </div>
             </div>
             <div className="col-sm-12 col-md-4">
-              <div className="cardCcontainer">
-                <div className="containerImage">
+              <div className="cardCcontainerFeatures">
+                <div className="containerImageFeatures">
                   <img src={tharkiMedal} width="260" height="160"></img>
                 </div>
-                <p className="cardHeading">Volunteer and Fundraising</p>
-                <p className="containerDdesc">
+                <p className="cardHeadingFea">Volunteer and Fundraising</p>
+                <p className="containerDdescFea">
                   You can transform a child's world. Wheather it is by
                   volunteering or by participating in fund raisers.
                 </p>
-                <a href="/Schools" className="containerButton">
+                <a href="/Schools" className="containerButtonFea">
                   Read more
                 </a>
               </div>
@@ -97,13 +97,13 @@ const BasicFeatures = () => {
         ></img>
       </div> */}
 
-      <div className="socialMediaTab">
-        <div className="followUsText">FOLLOW US</div>
-        <img className="socialIcons" src={facebook}></img>
-        <img className="socialIcons" src={youtube} class="img-fluid"></img>
-        <img className="socialIcons" src={instagram} class="img-fluid"></img>
-        <img className="socialIcons" src={wifi} class="img-fluid"></img>
-        <img className="socialIcons" src={twitter} class="img-fluid"></img>
+      <div className="socialMediaTabFea">
+        <div className="followUsTextFea">FOLLOW US</div>
+        <img className="socialIconsFea" src={facebook}></img>
+        <img className="socialIconsFea" src={youtube} class="img-fluid"></img>
+        <img className="socialIconsFea" src={instagram} class="img-fluid"></img>
+        <img className="socialIconsFea" src={wifi} class="img-fluid"></img>
+        <img className="socialIconsFea" src={twitter} class="img-fluid"></img>
       </div>
     </div>
   );

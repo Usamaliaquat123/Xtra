@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import HomeSlide from "./../components/Home/HomeSlide/HomeSlide";
 import HomeSlideSecond from "./../components/Home/Slide2/HomeSlideSecond";
+import HomeSlideThird from "./../components/Home/Slide3/HomeSlideThird";
+import HomeSlideFour from "./../components/Home/Slide4/HomeSlideFour";
+import HomeSlideFive from "./../components/Home/Slide5/HomeSlideFive";
 import Header from "../components/header/Header";
 import BasicFeatures from "../components/Basicfeatures/Basicfeatures";
 import Subscribe from "../components/Subscribe/Subscribe";
@@ -25,7 +28,9 @@ class HomeScreen extends Component {
         >
           <HomeSlide />
           <HomeSlideSecond />
-
+          <HomeSlideThird />
+          <HomeSlideFour />
+          <HomeSlideFive />
           {/* <Donation /> */}
           <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />

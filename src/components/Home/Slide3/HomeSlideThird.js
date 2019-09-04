@@ -4,16 +4,15 @@ import React, { useState } from "react";
 // import homeLesson from "./../../Images/Home/homeLesson.png"
 // import teacherLesson from "./../../Images/Home/teacherLesson.png"
 // import eductionLesson from "./../../Images/Home/eductionLesson.png"
-import bachiWatching from "./../../../images/Home/bachiWatching.png";
+import bachiWatching from "./../../../assets/images/Home/bachiWatching.png";
 import "./HomeSlideThirdStyles.css";
-import Typed from "react-typed";
 const HomeSlideThird = () => {
   return (
-    <div className="containerSlide">
+    <div className="containerSlideThird">
       <div className="buttonWhatWeDo">
         <p>WHAT WE DO</p>
       </div>
-      <div className="secondLayerContainer">
+      <div className="secondLayerContainerThird">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-8">

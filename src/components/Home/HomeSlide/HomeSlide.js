@@ -22,33 +22,33 @@ const HomeSlide = () => {
         backgroundPosition: "center",
         minHeight: `auto`
       }}
-      className="backgroundHeight"
+      className="backgroundHeightSl1"
     >
       <div className="container-fluid">
-        <div className="mainContainerHeadingText">
+        <div className="mainContainerHeadingTextSl1">
           {/* <div className={HomeSlideStyle.backgroundText}> */}
 
           <p>
-            <span className="backgroundText">
+            <span className="backgroundTextSl1">
               THE SMALLEST ACT OF KINDNESS IS WORTH MORE{" "}
             </span>
             <br />
-            <span className="backgroundText">THAN THE GRANDEST INTENTION</span>
+            <span className="backgroundTextSl1">THAN THE GRANDEST INTENTION</span>
             <br />
-            <span className="backgroundText">- OSCAR WILDE</span>
+            <span className="backgroundTextSl1">- OSCAR WILDE</span>
           </p>
-          <div className="actNoeBtn">
+          <div className="actNoeBtnSl1">
             <p>ACT NOW</p>
           </div>
         </div>
 
-        <div className="socialMediaTab">
-          <div className="followUsText">FOLLOW US</div>
-          <img className="socialIcons" src={facebook}></img>
-          <img className="socialIcons" src={youtube} class="img-fluid"></img>
-          <img className="socialIcons" src={instagram} class="img-fluid"></img>
-          <img className="socialIcons" src={wifi} class="img-fluid"></img>
-          <img className="socialIcons" src={twitter} class="img-fluid"></img>
+        <div className="socialMediaTabSl1">
+          <div className="followUsTextSl1">FOLLOW US</div>
+          <img className="socialIconsSl1" src={facebook}></img>
+          <img className="socialIconsSl1" src={youtube} class="img-fluid"></img>
+          <img className="socialIconsSl1" src={instagram} class="img-fluid"></img>
+          <img className="socialIconsSl1" src={wifi} class="img-fluid"></img>
+          <img className="socialIconsSl1" src={twitter} class="img-fluid"></img>
         </div>
         <div className="textBottomTab">
           <div className="yellowIndicator"></div>

@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomeScreen from "./../container/HomeScreen";
 import Child from "../container/Child";
 import Teacher from "../container/Teacher";
+import GetInvolved from "../container/GetInvolved";
+import NewsAndEvents from "../container/NewsAndEvents";
+import ContactUs from "../container/ContactUs";
 
 function AppRouter() {
   return (
@@ -16,7 +19,7 @@ function AppRouter() {
       <Route path="/wherewework/scpc" exact component={HomeScreen} />
       <Route path="/wherewework/jacte" exact component={HomeScreen} />
       {/* getInvolved */}
-      <Route path="/getInvolved" exact component={getInvolved} />
+      <Route path="/getInvolved" exact component={GetInvolved} />
       <Route path="/News&Events" exact component={NewsAndEvents} />
       <Route path="/contactus" exact component={ContactUs} />
     </Router>

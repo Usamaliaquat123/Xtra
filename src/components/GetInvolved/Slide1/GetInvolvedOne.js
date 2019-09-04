@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import ghar from "./../../../images/GetInv/getInv.png";
+import ghar from "./../../../assets/images/GetInv/getInv.png";
 import "./GetInvolvedOneStyles.css";
-import Typed from "react-typed";
 const GetInvolvedOne = () => {
   return (
     <>

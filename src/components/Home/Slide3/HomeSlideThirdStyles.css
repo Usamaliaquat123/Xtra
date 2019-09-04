@@ -8,7 +8,7 @@
   src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
 }
 
-.containerSlide {
+.containerSlideThird {
   background: #72c6ff;
 
   min-height: 100%;
@@ -21,7 +21,7 @@
 
   padding-top: 3%;
 }
-.secondLayerContainer {
+.secondLayerContainerThird {
   width: 80%;
   /* position: absolute; */
   background: #8ed1ff;

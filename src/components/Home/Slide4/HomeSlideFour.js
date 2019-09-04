@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React, { useState } from "react";
 import tafreeTeacher from "./../../../assets/images/Home/tafreeTeacher.png";
 import "./HomeSlideFourStyles.css";
-import Typed from "react-typed";
 const HomeSlideFour = () => {
   return (
     <div className="containerSlide">

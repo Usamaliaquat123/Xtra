@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./HomeSlideFiveStyle.css";
-import Typed from "react-typed";
 const HomeSlideFive = () => {
   return (
     <div className="slideFiveContainer">

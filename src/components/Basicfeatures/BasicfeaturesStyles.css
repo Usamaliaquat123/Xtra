@@ -3,18 +3,18 @@
   src: url("./../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
-.containerOverlay {
+.containerOverlayFeatures {
   margin-top: 100;
   background: #ecf4fa;
   align-items: center;
   height: auto;
 }
 
-.socialIcons {
+.socialIconsFea {
   margin-right: 3px;
   float: left;
 }
-.followUsText {
+.followUsTextFea {
   font-size: 1vw;
   float: left;
   color: aliceblue;
@@ -22,7 +22,7 @@
   margin-left: 6%;
   margin-right: 5%;
 }
-.socialMediaTab {
+.socialMediaTabFea {
   margin-top: -64px;
   /* margin-left: -2%; */
   padding: 4px 28px;
@@ -32,7 +32,7 @@
   /* float: left; */
   /* float: left; */
 }
-.socialMediaTab > img {
+.socialMediaTabFea > img {
   width: 10%;
 
   margin-left: 2%;
@@ -43,13 +43,13 @@
   padding: 60;
 }
 
-.cardHeading {
+.cardHeadingFea {
   font-size: 21px;
   opacity: 0.7;
   font-family: "Harabara Bold";
   font-weight: bold;
 }
-.containerButton {
+.containerButtonFea {
   font-family: "Harabara Bold";
   text-align: center;
   text-decoration: none;
@@ -61,15 +61,15 @@
   padding: 10px;
   padding-left: 20px;
 }
-.containerImage {
+.containerImageFeatures {
   margin-top: -50px;
   margin-right: -50px;
 }
-.containerDdesc {
+.containerDdescFea {
   opacity: 0.7;
   font-size: 16px;
 }
-.cardCcontainer {
+.cardCcontainerFeatures {
   margin: 5%;
   width: 250px;
   padding: 23px;
@@ -86,7 +86,7 @@
   margin-top: -50;
   margin-right: -50;
 }
-.containerStyle {
+.containerStyleFeatures {
   padding: 487px;
   padding-top: 80px;
   padding-bottom: 9.34%;

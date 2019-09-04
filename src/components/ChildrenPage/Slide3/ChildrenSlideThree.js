@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import "./ChildrenSlideThreeStyles.css";
 const ChildrenSlideThree = () => {
   return (
-    <div className="containerSLideOne">
-      <div className="textsContainer">
-        <p className="HeadingSTyle">GET INVOLVED</p>
-        <p className="Description">Sponser a child at any KEF's schools.</p>
-        <div className="btnStyle">DONATE NOW</div>
+    <div className="containerSLideOneChsl3">
+      <div className="textsContainerChsl3">
+        <p className="HeadingSTyleChsl3">GET INVOLVED</p>
+        <p className="DescriptionChsl3">Sponser a child at any KEF's schools.</p>
+        <div className="btnStyleChsl3">DONATE NOW</div>
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./NewsEventsSlideOneStyle.css";
-import Typed from "react-typed";
 import facebook from "./../../../assets/images/Home/Icons/facebook.png";
 import twitter from "./../../../assets/images/Home/Icons/twitter.png";
 import instagram from "./../../../assets/images/Home/Icons/instagram.png";

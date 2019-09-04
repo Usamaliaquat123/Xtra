@@ -4,23 +4,23 @@ import bachi from "./../../../assets/images/Home/TeachersTab/teacher.png";
 import "./TeachersSlideOneStyle.css";
 const TeachersSlideOne = () => {
   return (
-    <div className="containerSLideOne">
-      <div className="ImageContainer">
-        <img className="bachiImg" src={bachi} class="img-fluid"></img>
+    <div className="containerSLideOneTec">
+      <div className="ImageContainerTec">
+        <img className="bachiImgTec" src={bachi} class="img-fluid"></img>
       </div>
-      <div className="containerTextSTyle">
-        <div className="btnWhatweDO">WHAT WE DO</div>
-        <p className="headingText">
+      <div className="containerTextSTyleTec">
+        <div className="btnWhatweDOTec">WHAT WE DO</div>
+        <p className="headingTextTec">
           Joan Atkinson College of Teacher PEducation for women
         </p>
-        <p className="descText">
+        <p className="descTextTec">
           Joan Atkinson, the pioneer Principal of KEF's flagship school and the
           first Director of College of Teacher Education, returned voluntarily
           to steer the school during its formative period. With the passage of
           time, the faculty has been replaced by local teachers trained in the
           Joan Atkinson College of Teacher Education
         </p>
-        <p className="descText">
+        <p className="descTextTec">
           An additional objective which was developed since 2001, out of sheer
           necessity was to setup a culture specific College of Teacher Education
           (CTE) for female graduates from rural areas. Presently our CTO
@@ -28,7 +28,7 @@ const TeachersSlideOne = () => {
           of the highest standards of education and the best quality of teacher
           and learning children are entitled to.
         </p>
-        <p className="descText">
+        <p className="descTextTec">
           We aim to utilize the established schools and Teacher Training
           Institutes as resource centers for replicating quality schools
           throughout the country. KEF also works to upgrade the skills of

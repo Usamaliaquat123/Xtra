@@ -3,10 +3,11 @@
   src: url("./../../../assets/fonts/Lato2OFL/Lato-Black.ttf");
 }
 
-.containerContent {
+.containerContentTecsl2 {
   padding: 6% 15%;
 }
-.btnOurImpact {
+.btnOurImpactTecsl2
+ {
   border-radius: 12px;
   text-align: center;
   font-size: 12px;
@@ -17,7 +18,7 @@
   margin: auto;
   font-family: "Lato";
 }
-.desc {
+.descTecsl2 {
   color: #ffffff;
   margin: 4% 0;
   font-family: "Lato";
@@ -25,14 +26,14 @@
   font-weight: "bold";
   text-align: center;
 }
-.HeadingCount {
+.HeadingCountTecsl2 {
   color: #ffffff;
   font-size: 56px;
   font-weight: bold;
   /* text-align: center; */
   font-family: "Lato";
 }
-.descContainer {
+.descContainerTecsl2 {
   margin-top: -12%;
   color: #ffffff;
   font-size: 20px;

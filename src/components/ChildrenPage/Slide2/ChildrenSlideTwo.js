@@ -17,32 +17,32 @@ const ChildrenSlideTwo = () => {
         minHeight: `500`
       }}
     >
-      <div className="containerContent">
-        <div className="btnOurImpact">OUR IMPACT</div>
-        <div className="desc">We invested in an educated tomorrow.</div>
+      <div className="containerContentChsl2">
+        <div className="btnOurImpactChsl2">OUR IMPACT</div>
+        <div className="descChsl2">We invested in an educated tomorrow.</div>
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-3">
-              <p className="HeadingCount">500+</p>
-              <p className="descContainer">
+              <p className="HeadingCountChsl2">500+</p>
+              <p className="descContainerChsl2">
                 Students have graduated from our schools
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <p className="HeadingCount">350+</p>
-              <p className="descContainer">
+              <p className="HeadingCountChsl2">350+</p>
+              <p className="descContainerChsl2">
                 graduates in professions after completing higher education
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <p className="HeadingCount">11th</p>
-              <p className="descContainer">
+              <p className="HeadingCountChsl2">11th</p>
+              <p className="descContainerChsl2">
                 Position secured in GPA among 1135 schools
               </p>
             </div>
             <div className="col-sm-12 col-md-3">
-              <p className="HeadingCount">23</p>
-              <p className="descContainer">
+              <p className="HeadingCountChsl2">23</p>
+              <p className="descContainerChsl2">
                 Years of providing modren education to underprivileged boys and
                 girls{" "}
               </p>
