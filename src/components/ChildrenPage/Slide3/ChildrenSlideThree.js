@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React, { useState } from "react";
 // import backgroundImage from "./../../Images/Home/HomeSlide1.jpg"
 import "./ChildrenSlideThreeStyles.css";

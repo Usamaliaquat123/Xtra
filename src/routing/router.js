@@ -10,6 +10,15 @@ function AppRouter() {
       <Route path="/" exact component={HomeScreen} />
       <Route path="/child/" component={Child} />
       <Route path="/teacher/" component={Teacher} />
+      {/* Where we work */}
+      <Route path="/wherewework/pvpc" exact component={HomeScreen} />
+      <Route path="/wherewework/bvpc" exact component={HomeScreen} />
+      <Route path="/wherewework/scpc" exact component={HomeScreen} />
+      <Route path="/wherewework/jacte" exact component={HomeScreen} />
+      {/* getInvolved */}
+      <Route path="/getInvolved" exact component={getInvolved} />
+      <Route path="/News&Events" exact component={NewsAndEvents} />
+      <Route path="/contactus" exact component={ContactUs} />
     </Router>
   );
 }
