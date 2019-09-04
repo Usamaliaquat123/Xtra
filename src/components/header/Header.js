@@ -1,21 +1,21 @@
-import PropTypes from "prop-types"
-import React from "react"
-import logoImg from "./../../assets/images/logo.png"
-import  "./Header.css"
+import PropTypes from "prop-types";
+import React from "react";
+import logoImg from "./../../assets/images/logo.png";
+import "./Header.css";
 const Header = ({ siteTitle, siteSubTitle }) => (
-  <div className='headContainer'>
+  <div className="headContainer">
     <div className="container-fluid">
       <div className="row">
         <div className="col-sm-2">
-          <a href="/" className='logoStyle'>
+          <a href="/" className="logoStyle">
             <img src={logoImg} class="img-fluid" width={170} height={130}></img>
           </a>
         </div>
         <div className="col-sm-6">
-          <p className='headerSubHeading'>{siteSubTitle}</p>
+          <p className="headerSubHeading">{siteSubTitle}</p>
         </div>
         <div className="col-sm-4">
-          <a href="/Donate" className='donatebtn'>
+          <a href="/Donate" className="donatebtn">
             <p>DONATE NOW</p>
           </a>
         </div>
@@ -23,14 +23,14 @@ const Header = ({ siteTitle, siteSubTitle }) => (
     </div>
     {/* <hr /> */}
   </div>
-)
+);
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  siteTitle: PropTypes.string
+};
 
 Header.defaultProps = {
-  siteTitle: ``,
-}
+  siteTitle: ``
+};
 
-export default Header
+export default Header;
