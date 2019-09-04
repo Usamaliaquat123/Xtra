@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+// import PaymentApp from './conponents/payment/Payment';
+import Layout from "./container/Layout";
 function App() {
   return (
     <div className="App">
+      <Layout />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
