@@ -22,6 +22,12 @@ function AppRouter() {
       <Route path="/getInvolved" exact component={GetInvolved} />
       <Route path="/News&Events" exact component={NewsAndEvents} />
       <Route path="/contactus" exact component={ContactUs} />
+      {/* payments pages */}
+      <Route path="/donate" exact component={NewsAndEvents} />
+      <Route path="/Pay" exact component={NewsAndEvents} />
+      <Route path="/paySucess" exact component={NewsAndEvents} />
+      <Route path="/paymentNotSucess" exact component={NewsAndEvents} />
+      
     </Router>
   );
 }

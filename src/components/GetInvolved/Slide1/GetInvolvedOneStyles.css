@@ -12,11 +12,11 @@
   width: 100%;
 }
 
-.containerStyle {
+.containerStyleGisl1 {
   width: 100%;
   background-color: #ecf4fa;
 }
-.containerLeft {
+.containerLeftGlsl1 {
   width: 100%;
   height: auto;
   padding: 4%;
@@ -27,17 +27,17 @@
   font-weight: bold;
   font-family: "Harabara Bold";
 }
-.subHeading {
+.subHeadingGlsl1 {
   color: #2074ae;
   font-size: 1.3vw;
 }
-.desc {
+.descGlsl1 {
 }
-.ImageStyle > img {
+.ImageStyleGls1 > img {
   width: 92%;
   margin-bottom: 0;
 }
-.triangleDiv {
+.triangleDivGls1 {
   position: absolute;
   width: 0;
   height: 0;
