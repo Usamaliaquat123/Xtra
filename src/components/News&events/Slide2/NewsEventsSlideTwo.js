@@ -11,51 +11,55 @@ import pstImg4 from "./../../../assets/images/NewsandEvents/06.png";
 const NewsEventsSlideTwo = () => {
   return (
     <>
-      <div className="containerView">
-        <div className="oneRowConatiner">
+      <div className="containerViewNesl2">
+        <div className="oneRowConatinerNesl2">
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-12 col-md-3">
                 {/* /////////////////////////////// */}
-                <div className="postOne">
+                <div className="postOneNesl2">
                   {/* todo Image section */}
-                  <div className="btnStyle">NEWS POST</div>
-                  <img className="socialIcons" src={pstImg1}></img>
-                  <div className="containerCardText">
-                    <p className="titleNews">
+                  <div className="btnStyleNesl2">NEWS POST</div>
+                  <img className="socialIconsNesl2" src={pstImg1}></img>
+                  <div className="containerCardTextNesl2">
+                    <p className="titleNewsNesl2">
                       Tree planting initiative in Pearl Valley Public School,
                       Rawalkot.
                     </p>
-                    <p className="linkNews">Read this post</p>
+                    <p className="linkNewsNesl2">Read this post</p>
                   </div>
                 </div>
                 {/* /////////////////////////////// */}
               </div>
               <div className="col-sm-12 col-md-3">
                 {/* ///////////////////////// */}
-                <div className="postTwo">
+                <div className="postTwoNesl2">
                   {/* todo Image section */}
-                  <div className="btnStyle">NEWS POST</div>
-                  <img className="socialIcons" src={pstImg2}></img>
-                  <div className="containerCardTextPostTwo">
-                    <p className="titleNews">Banjosa Valley Public School</p>
-                    <p className="linkNewspostTwo">Read this post</p>
+                  <div className="btnStyleNesl2">NEWS POST</div>
+                  <img className="socialIconsNesl2" src={pstImg2}></img>
+                  <div className="containerCardTextPostTwoNesl2">
+                    <p className="titleNewsNesl2">
+                      Banjosa Valley Public School
+                    </p>
+                    <p className="linkNewspostTwoNesl2">Read this post</p>
                   </div>
                 </div>
                 {/* //////////////////////////////// */}
               </div>
               <div className="col-sm-12 col-md-6">
                 {/* /////////////////////// */}
-                <div className="postThree">
-                  <div className="containerCardTextPostThree">
-                    <p className="titleNews">
+                <div className="postThreeNesl2">
+                  <div className="containerCardTextPostThreeNesl2">
+                    <p className="titleNewsNesl2">
                       Tree planting initiative in Green Fields Park
                     </p>
-                    <p className="linkNews">Find out more about this event</p>
+                    <p className="linkNewsNesl2">
+                      Find out more about this event
+                    </p>
                   </div>
-                  <div className="btnStyleSlideThree">EVENT</div>
+                  <div className="btnStyleSlideThreeNesl2">EVENT</div>
                   {/* todo Image section */}
-                  <img className="cardLlandImage" src={evntImg1}></img>
+                  <img className="cardLlandImageNesl2" src={evntImg1}></img>
                 </div>
                 {/* /////////////////////// */}
               </div>
@@ -70,27 +74,29 @@ const NewsEventsSlideTwo = () => {
             <div className="row">
               <div className="col-sm-12 col-md-6">
                 {/* ///////////////////////////////// */}
-                <div className="postThree">
-                  <div className="containerCardTextPostThree">
-                    <p className="titleNews">
+                <div className="postThreeNesl2">
+                  <div className="containerCardTextPostThreeNesl2">
+                    <p className="titleNewsNesl2">
                       Donation by Acklam Grange School
                     </p>
-                    <p className="linkNews">Find out more about this event</p>
+                    <p className="linkNewsNesl2">
+                      Find out more about this event
+                    </p>
                   </div>
-                  <div className="btnStyleSlideThree">2018</div>
+                  <div className="btnStyleSlideThreeNesl2">2018</div>
                   {/* todo Image section */}
-                  <img className="cardLlandImage" src={evntImg2}></img>
+                  <img className="cardLlandImageNesl2" src={evntImg2}></img>
                 </div>
                 {/* ///////////////////////////////// */}
               </div>
               <div className="col-sm-12 col-md-3">
                 {/* //////////////////////////////// */}
-                <div className="postTwo">
+                <div className="postTwoNesl2">
                   {/* todo Image section */}
-                  <div className="btnStyle">NEWS POST</div>
-                  <img className="socialIcons" src={pstImg3}></img>
-                  <div className="containerCardTextPostTwo">
-                    <p className="titleNews">
+                  <div className="btnStyleNesl2">NEWS POST</div>
+                  <img className="socialIconsNesl2" src={pstImg3}></img>
+                  <div className="containerCardTextPostTwoNesl2">
+                    <p className="titleNewsNesl2">
                       KEF UK Annual Fund Raising Dinner
                     </p>
                     <p className="linkNewspostTwoSlide2">Read this post</p>
@@ -100,15 +106,15 @@ const NewsEventsSlideTwo = () => {
               </div>
               <div className="col-sm-12 col-md-3">
                 {/* /////////////////////// */}
-                <div className="postOne">
+                <div className="postOneNesl2">
                   {/* todo Image section */}
-                  <div className="btnStyle">NEWS POST</div>
-                  <img className="socialIcons" src={pstImg4}></img>
-                  <div className="containerCardText">
-                    <p className="titleNews">
+                  <div className="btnStyleNesl2">NEWS POST</div>
+                  <img className="socialIconsNesl2" src={pstImg4}></img>
+                  <div className="containerCardTextNesl2">
+                    <p className="titleNewsNesl2">
                       KEF's students visit Aeronotical Complex, Kamra.
                     </p>
-                    <p className="linkNews">Read this post</p>
+                    <p className="linkNewsNesl2">Read this post</p>
                   </div>
                 </div>
                 {/* /////////////////////// */}

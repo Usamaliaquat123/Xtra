@@ -8,41 +8,41 @@
   src: url("./../../../assets/fonts/Lato2OFL/Lato-Bold.ttf");
 }
 
-.containerView {
+.containerViewNesl2 {
   width: 100%;
   height: auto;
   background: #ecf5fa;
 }
 
-.oneRowConatiner {
+.oneRowConatinerNesl2 {
   padding: 10% 14%;
 }
 /* Post sections */
-.postOne {
+.postOneNesl2 {
   background: #fff;
   width: 100%;
   height: 100%;
 }
-.postTwo {
+.postTwoNesl2 {
   background: #fff;
   width: 100%;
   height: 100%;
 }
-.containerCardText {
+.containerCardTextNesl2 {
   padding: 1% 10%;
 }
 .linkNewspostTwoSlide2 {
   font-size: 0.9vw;
   text-decoration: underline;
 }
-.containerCardTextPostThree {
+.containerCardTextPostThreeNesl2 {
   /* padding: 10% 10%; */
   padding: 8% 10%;
 }
-.containerCardTextPostTwo {
+.containerCardTextPostTwoNesl2 {
   padding: 1% 10%;
 }
-.btnStyleSlideThree {
+.btnStyleSlideThreeNesl2 {
   background: #eb5d5f;
   width: 27%;
   padding: 2% 4%;
@@ -53,7 +53,7 @@
   position: absolute;
   margin-top: -3%;
 }
-.btnStyle {
+.btnStyleNesl2 {
   background: #1c70aa;
   width: 59%;
   padding: 4% 7%;
@@ -66,24 +66,24 @@
   margin: 0px 15%;
   margin-top: 66%;
 }
-.postThree {
+.postThreeNesl2 {
   background: #fff;
   width: 100%;
   height: 100%;
 }
-.cardLlandImage {
+.cardLlandImageNesl2 {
   margin-bottom: 0%;
   width: 100%;
 }
-.titleNews {
+.titleNewsNesl2 {
   font-size: 1.5vw;
   font-family: "lato Bold";
 }
-.linkNews {
+.linkNewsNesl2 {
   font-size: 0.9vw;
   text-decoration: underline;
 }
-.linkNewspostTwo {
+.linkNewspostTwoNesl2 {
   font-size: 0.9vw;
   position: absolute;
   text-decoration: underline;

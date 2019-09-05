@@ -8,7 +8,7 @@
   src: url("./../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
 }
 
-.imageContainer > img {
+.imageContainerNEsl1 > img {
   width: 100%;
   margin-bottom: 0;
 }
@@ -17,42 +17,42 @@
   /* mobile code */
 }
 
-.containerIcons > img {
+.containerIconsNEsl1 > img {
   margin-left: 3%;
   width: 10%;
 }
-.containerStyle {
+.containerStyleNEsl1 {
   background: #4698d0;
   width: 100%;
   height: auto;
 }
-.containerContent {
+.containerContentNEsl1 {
   padding: 0 16%;
   padding-bottom: 6%;
   padding-top: 1%;
 }
-.headingSocialMmediaIcons {
+.headingSocialMmediaIconsNEsl1 {
   /* padding: 7% 0; */
   padding: 0% 15%;
   padding-top: 3%;
   padding-top: 6%;
 }
-.latestPostText {
+.latestPostTextNEsl1 {
   font-size: 1.6vw;
   color: white;
   float: left;
   font-family: "Lato Light";
   font-weight: bold;
 }
-.containerIcons {
+.containerIconsNEsl1 {
   margin-left: 62%;
 }
-.allignSocialAndHeading {
+.allignSocialAndHeadingNEsl1 {
 }
-.socialIcons {
+.socialIconsNEsl1 {
   margin-right: 3px;
 }
-.followUsText {
+.followUsTextNEsl1 {
   font-size: 1vw;
   color: white;
   float: left;
@@ -60,7 +60,7 @@
   font-family: "Lato Light";
   padding-top: 2%;
 }
-.containerContentLeft {
+.containerContentLeftNEsl1 {
   background: #ecf5fa;
   position: absolute;
   padding: 11% 11%;
@@ -68,18 +68,18 @@
   right: 0;
   width: 100%;
 }
-.containerHeading {
+.containerHeadingNEsl1 {
   font-size: 1.4vw;
   font-weight: bold;
   font-family: "Lato Light";
 }
-.containerDesc {
+.containerDescNEsl1 {
   font-size: 1vw;
   font-family: "Lato Light";
 }
-.containerLink {
+.containerLinkNEsl1 {
   font-size: 0.8vw;
   text-decoration: underline;
 }
-.tharkis {
+.tharkisNEsl1 {
 }
