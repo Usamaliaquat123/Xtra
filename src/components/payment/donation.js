@@ -134,25 +134,25 @@ const Donation = () => {
               <div className='enterCustomDonationText'>
                 <p>Enter a custom donation amount</p>
               </div>
-              <div className={donation.selectdonationFrequency}>
+              <div className='selectdonationFrequency'>
                 <p>Choose a donation frequency</p>
 
-                <div className={donation.selectDonationFSelectorContainer}>
-                  <div className={donation.donationFrequencyButtonOneTime}>
-                    <span className={donation.donationOneTimeText}>
+                <div className='selectDonationFSelectorContainer'>
+                  <div className='donationFrequencyButtonOneTime'>
+                    <span className='donationOneTimeText'>
                       One time
                     </span>
                   </div>
-                  <div className={donation.donationFrequencyButtonMonthly}>
-                    <span className={donation.donationMonthlyText}>
+                  <div className='donationFrequencyButtonMonthly'>
+                    <span className='donationMonthlyText'>
                       Monthly
                     </span>
                   </div>
                 </div>
               </div>
-              <div className={donation.donateNowAndCancel}>
-                <div className={donation.donateNowButton}>Donate Now</div>
-                <div className={donation.cancelBbutton}>cancel</div>
+              <div className='donateNowAndCancel'>
+                <div className='donateNowButton'>Donate Now</div>
+                <div className='cancelBbutton'>cancel</div>
               </div>
             </div>
           </div>

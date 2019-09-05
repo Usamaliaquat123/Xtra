@@ -4,10 +4,10 @@ import Header from "../components/header/Header"
 import NavigatorView from "../components/NavigatorView/NavigatorView"
 import BasicFeatures from "../components/Basicfeatures/Basicfeatures"
 
-import Subscribe from "/../components/Subscribe/Subscribe"
+import Subscribe from "../components/Subscribe/Subscribe"
 import BottomNav from "../components/BottomNav/BottomNav"
 
-export class Pvpc extends Component {
+export class PageNotFound extends Component {
   static propTypes = {}
 
   donateWithStripe() {
@@ -26,6 +26,7 @@ export class Pvpc extends Component {
           }}
         >
           {/* <Donation /> */}
+          
           {/* <Donation */}
 
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
@@ -44,4 +45,4 @@ export class Pvpc extends Component {
   }
 }
 
-export default Pvpc
+export default PageNotFound

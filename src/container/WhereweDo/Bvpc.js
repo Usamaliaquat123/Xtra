@@ -1,13 +1,15 @@
 import React, { Component } from "react"
 import PropTypes from "prop-types"
-import Header from "../components/header/Header"
-import NavigatorView from "../components/NavigatorView/NavigatorView"
-import BasicFeatures from "../components/Basicfeatures/Basicfeatures"
+import Header from "../../components/header/Header"
+import NavigatorView from "../../components/NavigatorView/NavigatorView"
+import BasicFeatures from "../../components/Basicfeatures/Basicfeatures"
+import WhereWeWorkSlideOne from "../../components/WhereWeWork/bvps/Slide1/WhereWeWorkSlideOne";
+import WhereWeWorkSlideTwo from "../../components/WhereWeWork/bvps/Slide2/WhereWeWorkSlideTwo";
+import WhereWeWorkSlideThree from "../../components/WhereWeWork/bvps/Slide3/WhereWeWorkSlideThree";
 
-import Subscribe from "./../components/Subscribe/Subscribe"
-import BottomNav from "../components/BottomNav/BottomNav"
-
-export class Jacte extends Component {
+import Subscribe from "./../../components/Subscribe/Subscribe"
+import BottomNav from "../../components/BottomNav/BottomNav"
+export class GetInvolved extends Component {
   static propTypes = {}
 
   donateWithStripe() {
@@ -25,6 +27,9 @@ export class Jacte extends Component {
             margin: `0 auto`,
           }}
         >
+          <WhereWeWorkSlideOne />
+          <WhereWeWorkSlideTwo />
+          <WhereWeWorkSlideThree />
           {/* <Donation /> */}
           {/* <Donation */}
 
@@ -44,4 +49,4 @@ export class Jacte extends Component {
   }
 }
 
-export default Jacte
+export default GetInvolved

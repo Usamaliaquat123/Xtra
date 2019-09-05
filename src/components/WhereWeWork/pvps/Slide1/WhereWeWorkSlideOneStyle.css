@@ -46,12 +46,12 @@
 
 @font-face {
   font-family: "lato Regular";
-  src: url("./../../../../fonts/Lato2OFL/Lato-Regular.ttf");
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
 }
 
 @font-face {
   font-family: "lato High";
-  src: url("./../../../../fonts/Lato2OFL/Lato-Heavy.ttf");
+  src: url("./../../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
 }
 
 .containerStyle {

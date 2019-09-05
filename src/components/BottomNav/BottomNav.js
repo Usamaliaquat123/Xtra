@@ -24,13 +24,13 @@ const BottomNav = () => {
               </div>
               <div style={{ marginTop: -2 }}>
                 <span className="addresssLinks">
-                  123 Anywhere St. <br />
+                370 Thornton Road, <br />
                 </span>
                 <span className="addresssLinks">
-                  Cityname, NY 11206 <br />
+                Bradford, BD8 8LQ, <br />
                 </span>
                 <span className="addresssLinks">
-                  (123) 456-7890 <br />
+                United Kingdom.<br />
                 </span>
                 <span className="addresssLinks">contact@npo.org</span>
               </div>

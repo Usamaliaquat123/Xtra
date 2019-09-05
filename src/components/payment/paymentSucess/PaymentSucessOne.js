@@ -2,12 +2,12 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
 // import sampleImg from "./../../images/don.jpg"
-import facebook from "./../../../images/Payment/facebook.png";
-import email from "./../../../images/Payment/email.png";
-import message from "./../../../images/Payment/message.png";
-import twitter from "./../../../images/Payment/twitter.png";
-import backgroundImage from "./../../../images/Payment/paymentSucess.png"
-import PaymentCompStyle from "./PaymentSucessOne.module.css"
+import facebook from "./../../../assets/images/Payment/facebook.png";
+import email from "./../../../assets/images/Payment/email.png";
+import message from "./../../../assets/images/Payment/message.png";
+import twitter from "./../../../assets/images/Payment/twitter.png";
+import backgroundImage from "./../../../assets/images/Payment/paymentSucess.png"
+import "./PaymentSucessOneStyles.css"
 const PaymentSucessOne = () => {
   return (
     <div
@@ -23,27 +23,27 @@ const PaymentSucessOne = () => {
         backgroundPosition: "center",
     minHeight: '500'
     }}
-        className={PaymentCompStyle.containerCard}
+        className='containerCard'
     >
 
 <div class='container-fluid'>
     <div class='row'>
       <div class='col-sm-6 col-md-6'>
-      <div className={PaymentCompStyle.donationDesc}></div>
+      <div className='donationDesc'></div>
 
       </div>
       <div class='col-sm-6 col-md-6'>
-        <div className={PaymentCompStyle.cardOfSharing}>
-            <div className={PaymentCompStyle.socialIconCard}>
+        <div className='cardOfSharing'>
+            <div className='socialIconCard'>
               <img src={twitter} ></img> TWITTER
             </div>
-            <div className={PaymentCompStyle.socialIconCard}>
+            <div className='socialIconCard'>
               <img src={facebook} ></img>fACEBOOK
             </div>
-            <div className={PaymentCompStyle.socialIconCard}>
+            <div className='socialIconCard'>
               <img src={email} ></img>EMAIL
             </div>
-            <div className={PaymentCompStyle.socialIconCard}>
+            <div className='socialIconCard'>
               <img src={message} ></img>MESSAGE
             </div>
         </div>
