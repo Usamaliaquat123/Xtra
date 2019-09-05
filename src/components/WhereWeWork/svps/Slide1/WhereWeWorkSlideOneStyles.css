@@ -54,7 +54,7 @@
   src: url("./../../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
 }
 
-.containerStyle {
+.containerStyleSvpsl1 {
   width: 100%;
   padding: 0 13%;
   height: auto;
@@ -170,7 +170,7 @@ a:hover {
   }
   .slideTextLeftSvpsl1 > .slideDescLeftSvpsl1 > p {
   }
-  .containerStyle {
+  .containerStyleSvpsl1 {
     height: auto;
   }
   .slideRightContainerSvpsl1 {
