@@ -4,13 +4,13 @@ import "./WhereWeWorkSlideThreeStyle.css";
 const WhereWeWorkSlideThree = () => {
   return (
     <>
-      <div className="containerSLideOne">
-        <div className="textsContainer">
-          <p className="HeadingSTyle">GET INVOLVED</p>
-          <p className="Description">
+      <div className="containerSLideOneSvsl3">
+        <div className="textsContainerSvsl3">
+          <p className="HeadingSTyleSvsl3">GET INVOLVED</p>
+          <p className="DescriptionSvsl3">
             Sponser a child at Soan Valley Public School
           </p>
-          <div className="btnStyle">DONATE NOW</div>
+          <div className="btnStyleSvsl3">DONATE NOW</div>
         </div>
       </div>
     </>
