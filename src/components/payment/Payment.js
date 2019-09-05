@@ -11,7 +11,8 @@ import {
   CardExpiryElement,
   Elements,
   CardElement,
-  injectStripe
+  injectStripe,
+  FormWithInjectStripe
 } from "react-stripe-elements";
 
 class _Payment extends React.Component {
@@ -35,8 +36,23 @@ class _Payment extends React.Component {
     console.log("form submit");
     console.log(this.props);
     try {
-      let token = this.props.stripe.createToken({ name: this.state.firstName });
+      let token = this.props.stripe
+        .createToken({
+          name: this.state.firstName
+        })
+        .then(s => console.log(s));
       console.log(token);
+
+      let amount = this.state.amount;
+      fetch("http://localhost:5000/api/donate", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+          "access-control-allow-origin": "localhost",
+          "access-control-allow-credentials": "true"
+        },
+        body: JSON.stringify({ token, amount })
+      });
     } catch (error) {
       console.log(error);
     }
@@ -140,7 +156,14 @@ class _Payment extends React.Component {
                   {/* Payment Card Number */}
                   <div className="paymentInfoCardNo">
                     <p>CREDIT CARD NUMBER</p>
-                    <CardNumberElement className="paymentInfoCardNoEle" />
+                    <CardNumberElement
+                      style={{
+                        base: {
+                          fontSize: "18px",
+                          color: "#fff"
+                        }
+                      }}
+                    />
                     {/* <input width="100%" placeholder="Credit card number" /> */}
                     <div style={{ borderBottom: "1px solid #fff" }}></div>
                   </div>
@@ -163,7 +186,14 @@ class _Payment extends React.Component {
                     <div class="col-sm-4 col-md-4">
                       <div className="paymentExpMonth">
                         {/* <input  width="100%" type='number'  placeholder="MM" /> */}
-                        <CardExpiryElement />
+                        <CardExpiryElement
+                          style={{
+                            base: {
+                              fontSize: "18px",
+                              color: "#fff"
+                            }
+                          }}
+                        />
                       </div>
                     </div>
                     {/*  Payment Expiration Year */}
@@ -175,7 +205,14 @@ class _Payment extends React.Component {
                     {/* Payment Expiration CVC */}
                     <div class="col-sm-4 col-md-4">
                       <div className="paymentExpCVC">
-                        <CardCVCElement />
+                        <CardCVCElement
+                          style={{
+                            base: {
+                              fontSize: "18px",
+                              color: "#fff"
+                            }
+                          }}
+                        />
                         {/* <input  width="100%" type='number'  placeholder="CVC" /> */}
                       </div>
                     </div>
@@ -204,7 +241,7 @@ class _Payment extends React.Component {
                     </div>
                     <div class="col-sm-6 col-md-6">
                       <div
-                        onClick={this.handleSubmit()}
+                        onClick={() => this.handleSubmit()}
                         className="paymentProcessBtn"
                       >
                         Process Payment
@@ -237,9 +274,7 @@ class Checkout extends React.Component {
   render() {
     return (
       <div className="Checkout">
-        <Elements>
-          <CardForm />
-        </Elements>
+        <CardForm />
       </div>
     );
   }

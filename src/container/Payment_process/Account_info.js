@@ -4,7 +4,7 @@ import BasicFeatures from "../../components/Basicfeatures/Basicfeatures";
 import Subscribe from "../../components/Subscribe/Subscribe";
 import BottomNav from "../../components/BottomNav/BottomNav";
 import NavigatorView from "../../components/NavigatorView/NavigatorView";
-
+import PaymentApp from "../../components/payment/Payment";
 class Account_info extends Component {
   constructor(props) {
     super(props);
@@ -22,6 +22,7 @@ class Account_info extends Component {
             margin: `0 auto`
           }}
         >
+          <PaymentApp />
           {/* <Donation /> */}
           <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
