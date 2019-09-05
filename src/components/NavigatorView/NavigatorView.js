@@ -23,26 +23,26 @@ export default class NavigatorView extends React.Component {
             <a href="#" className="dropdown">
               <li>WHAT WE DO</li>
               <div className="dropdownContent">
-                <a href="/Schools">SCHOOLS</a>
-                <a href="/Teachers">TEACHER TRAINING</a>
+                <a href="/child">SCHOOLS</a>
+                <a href="/teacher">TEACHER TRAINING</a>
               </div>
             </a>
             <a href="#" className="dropdownSchools">
               <li>WHERE WE WORK</li>
               <div className="dropdownContentSchools">
-                <a href="/Pvps">PEARL VALLEY PUBLIC SCHOOL</a>
-                <a href="/Bvps">BANJOSA VALLEY PUBLIC SCHOOL</a>
-                <a href="/Svps">SOAN VALLEY PUBLIC SCHOOL</a>
-                <a href="/Jact">JOAN ATKINSON COLLEGE OF TEACHER EDUCATION</a>
+                <a href="/pvpc">PEARL VALLEY PUBLIC SCHOOL</a>
+                <a href="/bvpc">BANJOSA VALLEY PUBLIC SCHOOL</a>
+                <a href="/svpc">SOAN VALLEY PUBLIC SCHOOL</a>
+                <a href="/jacte">JOAN ATKINSON COLLEGE OF TEACHER EDUCATION</a>
               </div>
             </a>
-            <a href="/GetInvolved">
+            <a href="/getInvolved">
               <li>GET INVLOVED</li>
             </a>
-            <a href="/News">
+            <a href="/News&Events">
               <li>NEWS & EVENTS</li>
             </a>
-            <a href="/ContactUs">
+            <a href="/contactus">
               <li>CONTACT US</li>
             </a>
           </ul>

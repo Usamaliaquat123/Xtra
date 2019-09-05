@@ -1,8 +1,6 @@
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./WhereWeWorkSlideThreeStyle.css";
-import Typed from "react-typed";
 const WhereWeWorkSlideThree = () => {
   return (
     <>

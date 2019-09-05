@@ -1,17 +1,14 @@
-import React, { Component } from "react"
-import PropTypes from "prop-types"
-import Header from "../components/header/Header"
-import NavigatorView from "../components/NavigatorView/NavigatorView"
-import BasicFeatures from "../components/Basicfeatures/Basicfeatures"
+import React, { Component } from "react";
+import Header from "../../components/header/Header";
+import BasicFeatures from "../../components/Basicfeatures/Basicfeatures";
+import Subscribe from "../../components/Subscribe/Subscribe";
+import BottomNav from "../../components/BottomNav/BottomNav";
+import NavigatorView from "../../components/NavigatorView/NavigatorView";
 
-import Subscribe from "../components/Subscribe/Subscribe"
-import BottomNav from "../components/BottomNav/BottomNav"
-
-export class GetInvolved extends Component {
-  static propTypes = {}
-
-  donateWithStripe() {
-    console.log(`test`)
+class Pay_denied extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
   }
 
   render() {
@@ -22,13 +19,11 @@ export class GetInvolved extends Component {
         <NavigatorView />
         <div
           style={{
-            margin: `0 auto`,
+            margin: `0 auto`
           }}
         >
           {/* <Donation /> */}
-          
-          {/* <Donation */}
-
+          <BasicFeatures />
           <Subscribe subscribeText="Subscribe to our monthly news letter and stay up to date with all news and events" />
           <BottomNav />
 
@@ -36,13 +31,13 @@ export class GetInvolved extends Component {
             <hr />
             <p style={{ textAlign: "center", fontSize: 13 }}>
               Copyright © 2010 Kashmir Education Eoundation. All rights
-            reserved.aqwSzZX
+              reserved.
             </p>
           </footer>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default GetInvolved
+export default Pay_denied;

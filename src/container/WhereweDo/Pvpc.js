@@ -1,19 +1,19 @@
-import React, { Component } from "react"
-import PropTypes from "prop-types"
-import Header from "../../components/header/Header"
-import NavigatorView from "../../components/NavigatorView/NavigatorView"
-import BasicFeatures from "../../components/Basicfeatures/Basicfeatures"
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import Header from "../../components/header/Header";
+import NavigatorView from "../../components/NavigatorView/NavigatorView";
+import BasicFeatures from "../../components/Basicfeatures/Basicfeatures";
 import WhereWeWorkSlideOne from "../../components/WhereWeWork/pvps/Slide1/WhereWeWorkSlideOne";
 import WhereWeWorkSlideTwo from "../../components/WhereWeWork/pvps/Slide2/WhereWeWorkSlideTwo";
 import WhereWeWorkSlideThree from "../../components/WhereWeWork/pvps/Slide3/WhereWeWorkSlideThree";
-import Subscribe from "../../components/Subscribe/Subscribe"
-import BottomNav from "../../components/BottomNav/BottomNav"
+import Subscribe from "../../components/Subscribe/Subscribe";
+import BottomNav from "../../components/BottomNav/BottomNav";
 
 export class Pvpc extends Component {
-  static propTypes = {}
+  static propTypes = {};
 
   donateWithStripe() {
-    console.log(`test`)
+    console.log(`test`);
   }
 
   render() {
@@ -24,12 +24,12 @@ export class Pvpc extends Component {
         <NavigatorView />
         <div
           style={{
-            margin: `0 auto`,
+            margin: `0 auto`
           }}
         >
-            <WhereWeWorkSlideOne />
-            <WhereWeWorkSlideTwo />
-            <WhereWeWorkSlideThree />
+          <WhereWeWorkSlideOne />
+          <WhereWeWorkSlideTwo />
+          <WhereWeWorkSlideThree />
           {/* <Donation /> */}
           {/* <Donation */}
 
@@ -45,8 +45,8 @@ export class Pvpc extends Component {
           </footer>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Pvpc
+export default Pvpc;

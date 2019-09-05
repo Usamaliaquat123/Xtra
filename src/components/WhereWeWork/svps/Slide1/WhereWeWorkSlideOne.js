@@ -1,47 +1,45 @@
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import bachiBachaRun from "./../../../../assets/images/WhereWedo/svpc.png";
 import ghar from "./../../../../assets/images/WhereWedo/svpc2.png";
 import "./WhereWeWorkSlideOneStyles.css";
-import Typed from "react-typed";
 const WhereWeWorkSlideOne = () => {
   return (
     <>
-      <div className="containerSlide">
-        <div className="conbtainer">
+      <div className="containerSlideSvpsl1">
+        <div className="conbtainerSvpsl1">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-6">
-                <div className="workbtn">WHERE WE WORK</div>
-                <div className="containerText">
-                  <div className="nonSelect">
-                    <a href="/Pvps" style={{ textDecoration: "none" }}>
+                <div className="workbtnSvpsl1">WHERE WE WORK</div>
+                <div className="containerTextSvpsl1">
+                  <div className="nonSelectSvpsl1">
+                    <a href="/pvpc" style={{ textDecoration: "none" }}>
                       PEARL VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="nonSelect">
-                    <a href="/Bvps" style={{ textDecoration: "none" }}>
+                  <div className="nonSelectSvpsl1">
+                    <a href="/bvpc" style={{ textDecoration: "none" }}>
                       BANJOSA VALLEY PUBLIC SCHOOL
                     </a>
                   </div>
-                  <div className="containerDescSl">
+                  <div className="containerDescSlSvpsl1">
                     SOAN VALLEY PUBLIC SCHOOL
                   </div>
-                  <div className="nonSelect">
-                    <a href="/Jact" style={{ textDecoration: "none" }}>
+                  <div className="nonSelectSvpsl1">
+                    <a href="/jacte" style={{ textDecoration: "none" }}>
                       JOAN ATKINSON COLLEGE OF TEACHER EDUCATION
                     </a>
                   </div>
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="firstSlideImage">
+                <div className="firstSlideImageSvpsl1">
                   <img
                     // class='img-fluid'
                     // width={500}
                     height={300}
-                    className="bachiImg"
+                    className="bachiImgSvpsl1"
                     src={bachiBachaRun}
                   ></img>
                 </div>
@@ -52,18 +50,18 @@ const WhereWeWorkSlideOne = () => {
       </div>
 
       {/* Slide 2 */}
-      <div className="containerStyle">
+      <div className="containerStyleSvpsl1">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-6 col-sm-12">
-              <div className="slideTextLeft">
-                <p className="slideDescLeft">
+              <div className="slideTextLeftSvpsl1">
+                <p className="slideDescLeftSvpsl1">
                   "An investment in knowledge pays the best interest"
                   <br />
                   <br />
                   <br />- Benjamin Franklin
                 </p>
-                <div className="slideRightImage">
+                <div className="slideRightImageSvpsl1">
                   <img
                     src={ghar}
                     class="img-fluid"
@@ -74,10 +72,12 @@ const WhereWeWorkSlideOne = () => {
               </div>
             </div>
             <div className="col-md-6 col-sm-12">
-              <div className="slideRightContainer">
-                <div className="textContainer">
-                  <p className="headingSlideText">Soan Valley Public School</p>
-                  <p className="DescStyleRight">
+              <div className="slideRightContainerSvpsl1">
+                <div className="textContaineSvpsl1r">
+                  <p className="headingSlideTextSvpsl1">
+                    Soan Valley Public School
+                  </p>
+                  <p className="DescStyleRightSvpsl1">
                     Encouraged by the phenomenal sucess of PVPS, KEF planned to
                     replicate similar schools in other parts of the country.
                     Thus, Soan Valley Public School was established in May,2005

@@ -1,17 +1,16 @@
 import PropTypes from "prop-types";
 import React, { useState } from "react";
 import "./WhereWeWorkSlideThreeStyle.css";
-import Typed from "react-typed";
 const WhereWeWorkSlideThree = () => {
   return (
     <>
-      <div className="containerSLideOne">
-        <div className="textsContainer">
-          <p className="HeadingSTyle">GET INVOLVED</p>
-          <p className="Description">
+      <div className="containerSLideOnePvsl1">
+        <div className="textsContainerPvsl1">
+          <p className="HeadingSTylePvsl1">GET INVOLVED</p>
+          <p className="DescriptionPvsl1">
             Sponsor a child at Pearl Valley Public School
           </p>
-          <div className="btnStyle">DONATE NOW</div>
+          <div className="btnStylePvsl1">DONATE NOW</div>
         </div>
       </div>
     </>

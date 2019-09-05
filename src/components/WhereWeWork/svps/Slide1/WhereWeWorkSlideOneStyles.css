@@ -3,18 +3,18 @@
   src: url("./../../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
 }
 
-.containerSlide {
+.containerSlideSvpsl1 {
   width: 100%;
   height: auto;
 }
-.containerText {
+.containerTextSvpsl1 {
   padding: 5% 10%;
 }
-.conbtainer {
+.conbtainerSvpsl1 {
   padding: 0 14.5%;
   padding-left: 3%;
 }
-.workbtn {
+.workbtnSvpsl1 {
   background: #03b9fe;
   color: #ffffff;
   margin-left: 30%;
@@ -37,7 +37,7 @@
   font-family: "lato Regular";
 }
 
-.firstSlideImage > img {
+.firstSlideImageSvpsl1 > img {
   width: 100%;
   float: left;
   margin-bottom: 0;
@@ -60,17 +60,17 @@
   height: auto;
   /* padding-right: %; */
 }
-.slideRightImage > img {
+.slideRightImageSvpsl1 > img {
   width: 100%;
   margin-bottom: auto;
 }
-.slideTextLeft {
+.slideTextLeftSvpsl1 {
   /* left: 0; */
   width: 100%;
   height: 100%;
   background: #424b69;
 }
-.slideDescLeft {
+.slideDescLeftSvpsl1 {
   margin-bottom: 27.6%;
   padding: 0 10%;
   padding-right: 37%;
@@ -80,7 +80,7 @@
   font-family: "lato Regular";
 }
 
-.slideRightContainer {
+.slideRightContainerSvpsl1 {
   background: #ecedf0;
   /* position: absolute; */
   margin-left: -30px;
@@ -88,22 +88,22 @@
   width: 100%;
   /* right: 0;    */
 }
-.textContainer {
+.textContaineSvpsl1r {
   padding: 15% 11%;
   padding-bottom: 46.5%;
 }
-.headingSlideText {
+.headingSlideTextSvpsl1 {
   font-size: 2vw;
   text-align: center;
   font-family: "lato High";
   opacity: 0.5;
 }
-.DescStyleRight {
+.DescStyleRightSvpsl1 {
   font-size: 1vw;
   font-family: "lato Regular";
 }
 
-.containerDescSl {
+.containerDescSlSvpsl1 {
   text-decoration: none;
   background: #03b9fe;
   width: 100%;
@@ -116,7 +116,7 @@
   font-size: 1vw;
   font-family: "lato Regular";
 }
-.nonSelect {
+.nonSelectSvpsl1 {
   text-decoration: none;
   background: transparent;
   width: 100%;
@@ -133,47 +133,47 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-.nonSelect:hover {
+.nonSelectSvpsl1:hover {
   cursor: pointer;
 }
-.containerDescSl:hover {
+.containerDescSlSvpsl1:hover {
   cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-  .workbtn {
+  .workbtnSvpsl1 {
     margin: auto;
     width: 100%;
     margin: 0 10%;
     background: #eb5d5f;
   }
-  .containerDescSl {
+  .containerDescSlSvpsl1 {
     text-align: center;
     margin: 8px 11%;
   }
-  .bachiImg {
+  .bachiImgSvpsl1 {
     margin: -3% 10%;
     border-radius: 25px;
   }
-  .containerSlide {
+  .containerSlideSvpsl1 {
     height: auto;
   }
   /* Slide 2 */
-  .slideTextLeft {
+  .slideTextLeftSvpsl1 {
     margin-top: 10%;
     border-radius: 25px;
     /* margin: 10% 10%; */
   }
-  .slideDescLeft {
+  .slideDescLeftSvpsl1 {
     padding: 10% 10%;
     text-align: center;
   }
-  .slideTextLeft > .slideDescLeft > p {
+  .slideTextLeftSvpsl1 > .slideDescLeftSvpsl1 > p {
   }
   .containerStyle {
     height: auto;
   }
-  .slideRightContainer {
+  .slideRightContainerSvpsl1 {
     background: #ecedf0;
     /* position: absolute; */
     /* margin-left: -30px; */

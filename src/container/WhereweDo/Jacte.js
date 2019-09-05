@@ -1,19 +1,18 @@
-import React, { Component } from "react"
-import PropTypes from "prop-types"
-import Header from "../../components/header/Header"
-import NavigatorView from "../../components/NavigatorView/NavigatorView"
-import BasicFeatures from "../../components/Basicfeatures/Basicfeatures"
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import Header from "../../components/header/Header";
+import NavigatorView from "../../components/NavigatorView/NavigatorView";
+import BasicFeatures from "../../components/Basicfeatures/Basicfeatures";
 import WhereWeWorkSlideOne from "../../components/WhereWeWork/jact/Slide1/WhereWeWorkSlideOne";
 import WhereWeWorkSlideTwo from "../../components/WhereWeWork/jact/Slide2/WhereWeWorkSlideTwo";
 import WhereWeWorkSlideThree from "../../components/WhereWeWork/jact/Slide3/WhereWeWorkSlideThree";
-import Subscribe from "./../../components/Subscribe/Subscribe"
-import BottomNav from "../../components/BottomNav/BottomNav"
-
+import Subscribe from "./../../components/Subscribe/Subscribe";
+import BottomNav from "../../components/BottomNav/BottomNav";
 export class Jacte extends Component {
-  static propTypes = {}
+  static propTypes = {};
 
   donateWithStripe() {
-    console.log(`test`)
+    console.log(`test`);
   }
 
   render() {
@@ -24,7 +23,7 @@ export class Jacte extends Component {
         <NavigatorView />
         <div
           style={{
-            margin: `0 auto`,
+            margin: `0 auto`
           }}
         >
           {/* <Donation /> */}
@@ -45,8 +44,8 @@ export class Jacte extends Component {
           </footer>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Jacte
+export default Jacte;

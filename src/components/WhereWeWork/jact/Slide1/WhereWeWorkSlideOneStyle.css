@@ -3,11 +3,11 @@
   src: url("./../../../../assets/fonts/Lato2OFL/Lato-Regular.ttf");
 }
 
-.containerSlide {
+.containerSlidejacWhsl1 {
   width: 100%;
   height: auto;
 }
-.containerText {
+.containerTextjacWhsl1 {
   padding: 5% 10%;
 }
 .conbtainer {
@@ -37,7 +37,7 @@
   font-family: "lato Regular";
 }
 
-.firstSlideImage > img {
+.firstSlideImageWhsl1 > img {
   width: 100%;
   float: left;
   margin-bottom: 0;
@@ -53,17 +53,17 @@
   src: url("./../../../../assets/fonts/Lato2OFL/Lato-Heavy.ttf");
 }
 
-.containerStyle {
+.containerStyleWhsl1 {
   width: 100%;
   padding: 0 13%;
   height: auto;
   /* padding-right: %; */
 }
-.slideRightImage > img {
+.slideRightImageWhsl1 > img {
   width: 100%;
   margin-bottom: auto;
 }
-.slideTextLeft {
+.slideTextLeftWhsl1 {
   /* left: 0; */
   width: 100%;
   height: 100%;
@@ -79,7 +79,7 @@
   font-family: "lato Regular";
 }
 
-.slideRightContainer {
+.slideRightContainerWhsl1 {
   background: #fdefef;
   /* position: absolute; */
   margin-left: -30px;
@@ -87,22 +87,22 @@
   width: 100%;
   /* right: 0;    */
 }
-.textContainer {
+.textContainerWhsl1 {
   padding: 15% 11%;
   padding-bottom: 46.5%;
 }
-.headingSlideText {
+.headingSlideTextWhsl1 {
   font-size: 2vw;
   text-align: center;
   font-family: "lato High";
   opacity: 0.5;
 }
-.DescStyleRight {
+.DescStyleRightWhsl1 {
   font-size: 1vw;
   font-family: "lato Regular";
 }
 
-.containerDescSl {
+.containerDescSlWhsl1 {
   text-decoration: none;
   background: #03b9fe;
   width: 100%;
@@ -115,7 +115,7 @@
   font-size: 1vw;
   font-family: "lato Regular";
 }
-.nonSelect {
+.nonSelectWhsl1 {
   text-decoration: none;
   background: transparent;
   width: 100%;
@@ -132,10 +132,10 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-.nonSelect:hover {
+.nonSelectWhsl1:hover {
   cursor: pointer;
 }
-.containerDescSl:hover {
+.containerDescSlWhsl1:hover {
   cursor: pointer;
 }
 
@@ -146,11 +146,11 @@ a:hover {
     margin: 0 10%;
     background: #eb5d5f;
   }
-  .containerDescSl {
+  .containerDescSlWhsl1 {
     text-align: center;
     margin: 8px 11%;
   }
-  .bachiImg {
+  .bachiImgWhsl1 {
     margin: -3% 10%;
     border-radius: 25px;
   }
@@ -158,7 +158,7 @@ a:hover {
     height: auto;
   }
   /* Slide 2 */
-  .slideTextLeft {
+  .slideTextLeftWhsl1 {
     margin-top: 10%;
     border-radius: 25px;
     /* margin: 10% 10%; */
@@ -167,12 +167,12 @@ a:hover {
     padding: 10% 10%;
     text-align: center;
   }
-  .slideTextLeft > .slideDescLeft > p {
+  .slideTextLeftWhsl1 > .slideDescLeft > p {
   }
-  .containerStyle {
+  .containerStyleWhsl1 {
     height: auto;
   }
-  .slideRightContainer {
+  .slideRightContainerWhsl1 {
     background: #ecedf0;
     /* position: absolute; */
     /* margin-left: -30px; */
